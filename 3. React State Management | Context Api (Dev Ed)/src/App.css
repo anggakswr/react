@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(94, 94, 94);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
