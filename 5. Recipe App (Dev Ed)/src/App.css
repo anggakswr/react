@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.App {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: tomato;
+  padding: 10px 20px;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
