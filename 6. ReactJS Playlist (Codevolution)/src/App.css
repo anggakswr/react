@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+button {
+  margin-top: 20px;
+  border: none;
+}
+
+button {
+  border: 1px solid lightgray;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.red {
+  color: red;
+}
